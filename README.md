@@ -18,7 +18,7 @@ _____________,'      ,',_____|      |    | |              \ |      chavatte@duck
              |   ,','    ____|_____/    /  |                |    ________________________________________|___
              | ,','  __/ |             /   |                |  /                                            /
 _____________|','   ///_/-------------/   |                 \_/____________________________________________/ 
-              |===========,'                                                                                  
+              |===========,'                                                                                
 			  
 
 </pre>
@@ -45,7 +45,7 @@ Desenvolver profissionais capazes de proteger sistemas e dados contra ameaças c
 
 ### [LAB-01: Criação de um Phishing com o Kali Linux](./projects/LAB-01/README.md)
 
-### [LAB-02:  Entendendo um Ransomware na Prática com Python]()
+### [LAB-02:  Entendendo um Ransomware na Prática com Python](./projects/LAB-02/README.md)
 
 ## Certificado de conclusão
 
