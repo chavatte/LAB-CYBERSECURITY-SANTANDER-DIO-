@@ -49,4 +49,4 @@ Desenvolver profissionais capazes de proteger sistemas e dados contra ameaças c
 
 ## Certificado de conclusão
 
- 🎓 [Santander Bootcamp Cibersegurança #2]()
+ 🎓 [Santander Bootcamp Cibersegurança #2](https://www.dio.me/certificate/O4XSI4C0)
