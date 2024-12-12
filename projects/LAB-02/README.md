@@ -2,8 +2,8 @@
 
 ## Resumo
 
-Simular um ataque de ransomware simples, criptografando um arquivo e adicionando uma mensagem de resgate.
-Demonstrar os conceitos básicos de criptografia e como um ataque de ransomware funciona.
+Esse laborátorio ira simular um ataque de ransomware simples, criptografando um arquivo e adicionando uma mensagem de resgate.
+Será demonstrado os conceitos básicos de criptografia e como um ataque de ransomware funciona.
 
 ***Este código é fornecido apenas para fins educacionais e demonstrativos. O uso indevido pode resultar em consequências legais.***
 
@@ -17,6 +17,7 @@ Demonstrar os conceitos básicos de criptografia e como um ataque de ransomware 
 **Função:** Criptografa o arquivo especificado.
 
 **Processo:**
+
 * Lê o arquivo alvo.
 * Criptografa o conteúdo usando o algoritmo AES em modo CTR com uma chave pré-definida.
 * Adiciona uma mensagem de resgate ao final do arquivo criptografado.
@@ -68,6 +69,7 @@ with open(f'{new_file}','wb') as new_file:
     new_file.write(final_data)
     new_file.close()
 ```
+
 </details>
 
 <details>
@@ -76,6 +78,7 @@ with open(f'{new_file}','wb') as new_file:
 **Função:** Descriptografa o arquivo criptografado.
 
 **Processo:**
+
 * Lê o arquivo criptografado.
 * Identifica a posição da mensagem de resgate.
 * Remove a mensagem de resgate.
@@ -113,6 +116,7 @@ with open(f'{new_file}','wb') as new_file:
     new_file.write(decrypt_data)
     new_file.close()
 ```
+
 </details>
 
 ## Como Usar
@@ -121,6 +125,7 @@ with open(f'{new_file}','wb') as new_file:
 
 * Python instalado
 * Biblioteca pyaes instalada
+
 ```
 pip install pyaes
 ```
@@ -133,10 +138,13 @@ pip install pyaes
 ### Execução:
 
 * Execute o script encrypter.py para criptografar o arquivo.
+
 ```
 python encrypter.py  
 ```
+
 * Execute o script decrypter.py para descriptografar o arquivo.
+
 ```
 python decrypter.py 
 ```
@@ -166,6 +174,7 @@ Implementar a geração de chaves aleatórias.
 Utilizar diferentes modos de operação do AES para maior segurança.
 
 Adicionar funcionalidades como:
+
 * Criptografia de diretórios inteiros.
 * Extensões de arquivos aleatórias para dificultar a identificação.
 * Comunicação com um servidor de comando e controle para receber instruções.

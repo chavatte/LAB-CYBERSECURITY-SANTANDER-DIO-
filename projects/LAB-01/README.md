@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Este laboratório apresenta um guia prático para a configuração de um ataque de phishing utilizando a ferramenta **setoolkit** no sistema operacional **Kali Linux**. O objetivo é simular um ataque real contra a plataforma Facebook, com o intuito de capturar credenciais de login dos usuários. Serão abordados os seguintes tópicos: utilização da ferramenta setoolkit, criação de um site clonado do Facebook e a coleta das credenciais dos usuários que acessarem o site falso.
+Este laboratório visa apresentar um guia prático para a configuração de um ataque de phishing utilizando a ferramenta **setoolkit** no sistema operacional **Kali Linux**. O objetivo é simular um ataque real contra a plataforma Facebook, com o intuito de capturar credenciais de login dos usuários. Serão abordados os seguintes tópicos: utilização da ferramenta setoolkit, criação de um site clonado do Facebook e a coleta das credenciais dos usuários que acessarem o site falso.
 
 ***É IMPORTANTE RESSALTAR QUE ESTE LABORATÓRIO TEM FINS EXCLUSIVAMENTE EDUCACIONAIS E QUE A REALIZAÇÃO DE ATAQUES REAIS A SISTEMAS COMPUTACIONAIS É ILEGAL.***
 
